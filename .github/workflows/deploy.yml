@@ -1,5 +1,9 @@
  name: Deploy
 
+on:
+  workflow_dispatch:
+    # This will enable manual triggering or scheduling of the workflow.
+
 jobs:
   build:
     name: Build
