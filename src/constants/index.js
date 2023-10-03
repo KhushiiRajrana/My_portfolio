@@ -17,6 +17,7 @@ import {
     tripguide,
     threejs,
     musiclogo,
+    godyn,
   } from "../assets";
   
   export const navLinks = [
@@ -97,6 +98,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Godynamic",
+    icon:godyn,
     
       date: "July 2023 - Present",
       points: [
