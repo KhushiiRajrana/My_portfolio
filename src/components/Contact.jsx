@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
- import emailjs from "@emailjs/browser"
+import emailjs from "@emailjs/browser"
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -41,9 +41,9 @@ const Contact = () => {
          templateId,
         {
           from_name: form.name,
-          to_name: "Akshansh_Kaushal",
+          to_name: "Khushi Rajrana",
           from_email: form.email,
-          to_email: "akshanshkaushal9@gmail.com",
+          to_email: "khushirajrana017@gmail.com",
           message: form.message,
         },
         userId

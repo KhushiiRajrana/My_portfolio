@@ -48,15 +48,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
        
-I'm a skilled software developer with 
-experience in Javascript and React framework
-,including libraries like Bootstrap, Tailwind, Three.js.
- I'm a quick learner and can
-collaborate closely with clients to create
-efficient, scalable, and user-friendly 
-solutions that solve real-world problems.
-Let's work together to bring your ideas 
-to life!
+
+I specialize in frontend development using CSS, JavaScript, and React, with a growing interest in app development. While my primary expertise lies in frontend technologies, I have some experience with backend development and am keen to deepen my knowledge in this area. I am dedicated to building intuitive, scalable, and user-focused solutions. Let’s collaborate to turn your vision into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-24'>

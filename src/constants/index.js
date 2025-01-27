@@ -68,22 +68,22 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -96,14 +96,14 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Godynamic",
+      title: "Executive",
+      company_name: "Team .EXE",
     icon:godyn,
     
-      date: "July 2023 - Present",
+      date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Building and managing web applications using React.js and related technologies.",
+        "Collaborating with multidisciplinary teams, including designers, product managers, and developers, while independently designing key components of app development projects..",
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
@@ -125,10 +125,10 @@ import {
           name: "API",
           color: "green-text-gradient",
         },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "Tailwind",
+        //   color: "pink-text-gradient",
+        // },
        
       ],
       image: musiclogo,
@@ -137,9 +137,9 @@ import {
     },
 
     {
-      name: "Memory Game",
+      name: "AidSure (Ongoing )",
       description:
-        " Web based game that will boost your memory",
+        " AidSure is a resource distribution system that uses biometric facial recognition and a fixed dataset to ensure transparent, fair, and efficient allocation of essential aid to refugees while preventing fraud and duplicate claims",
       tags: [
         {
           name: "Html",
@@ -158,43 +158,7 @@ import {
       app_link: "https://akshanshkaushal.github.io/Mind-game/",
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Keeper App",
-      description:
-        " A TO-DO List that enables users to keep their daily tasks up to the mark",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-       
-      ],
-      image: reactjs,
-      app_link: " ",
-      source_code_link: "https://github.com/",
-    },
-  
-    {
-      name: "Quiz App",
-      description:
-        "Quiz application made using MERN and Redux",
-      tags: [
-        {
-          name: "Reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: redux,
-      source_code_link: "https://github.com/Akshanshkaushal/Quiz__interface",
-    },
+    
   ];
   
   export { services, technologies, experiences,projects };
